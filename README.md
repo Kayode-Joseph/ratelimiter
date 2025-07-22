@@ -11,8 +11,8 @@ Make sure you have Java 17+ and Maven installed.
 
 Clone the repository:
 
-git clone 
-cd <your-project-directory>
+git clone https://github.com/Kayode-Joseph/ratelimiter
+
 
 Install dependencies:
 
@@ -23,6 +23,10 @@ Run the application:
 src/main/java/com/kayode/ratelimiter/RatelimiterApplication.java
 ```
 The server should start on http://localhost:8080
+
+The server is secured with spring security, the only accessible endpoint is 
+
+http://localhost:8080/users/{{userId}}
 
 ## 📀 Request Flow Overview
 
